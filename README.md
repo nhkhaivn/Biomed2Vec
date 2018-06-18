@@ -1,5 +1,6 @@
 # Biomed2Vec
 Learning Effective Distributed Representation of Complex Biomedical Concepts
+(Source code is accessible after a publication)
 
 # Corpus
 - Step 1: run download.sh to download all raw corpora
@@ -20,7 +21,7 @@ Learning Effective Distributed Representation of Complex Biomedical Concepts
     - 400-dimensional vectors
     - 500-dimensional vectors
     - 1000-dimensional vectors 
-    
+
   
 - Try
   - Download (1) or (2) ((2) is more preferable because its size is smaller and vocab is limited to only biomedical concepts)
