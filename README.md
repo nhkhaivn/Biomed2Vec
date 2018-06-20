@@ -15,13 +15,11 @@ Learning Effective Distributed Representation of Complex Biomedical Concepts
 
 # Trained vectors
 - Vectors trained on all corpora. We uploaded only vectors of biomedical concepts, full term vectors is available upon request due to the large size.
-    - 100-dimensional vectors
-    - 200-dimensional vectors
-    - 300-dimensional vectors
-    - 400-dimensional vectors
-    - 500-dimensional vectors
-    - 1000-dimensional vectors 
 
+    | First Header  | Second Header |
+    | ------------- | ------------- |
+    | Content Cell  | Content Cell  |
+    | Content Cell  | Content Cell  |
   
 - Try
   - Download (1) or (2) ((2) is more preferable because its size is smaller and vocab is limited to only biomedical concepts)
