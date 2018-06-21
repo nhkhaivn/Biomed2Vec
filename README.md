@@ -27,7 +27,7 @@ Learning Effective Distributed Representation of Complex Biomedical Concepts
     - [Limited model with only biomedical concepts](https://drive.google.com/drive/folders/1VFwaXcBN2fy_fz6Ip68ynfrZMxgJvtgE)
  
 # Try
-- Download pub_wikipedia_500.bin (trained on Merge corpus, d=500)
+- Download pub_wikipedia_500.bin (trained on Merge corpus, d=500, size=1.22GB)
 - Load the model: 
   ```
     m = KeyedVectors.load_word2vec_format('path to pub_wikipedia_500.bin', binary=True)
