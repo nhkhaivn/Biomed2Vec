@@ -23,7 +23,7 @@ Learning Effective Distributed Representation of Complex Biomedical Concepts
 
 # Pre-trained models
 - There are two versions for each model: 
-    - [Full model with all terms](mailto:nhkhai@nii.ac.jp) (accessible upon request due to the large size)
+    - Full model with all terms (accessible upon [request](mailto:nhkhai@nii.ac.jp) due to the large size)
     - [Limited model with only biomedical concepts](https://drive.google.com/drive/folders/1VFwaXcBN2fy_fz6Ip68ynfrZMxgJvtgE)
  
 # Try
