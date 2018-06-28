@@ -1,6 +1,11 @@
 # Biomed2Vec
 Learning Effective Distributed Representation of Complex Biomedical Concepts
-(Source code is available after a publication. However, now you can download pre-trained models)
+
+We focused on training effective representations for biomedical concepts including complex ones with multiple tokens. 
+We used an efficient technique to index all possible concepts of UMLS in a corpus of 15,4 billion tokens.
+We can obtain the vector representations for more than 650,000 concepts (with minimum frequency is 10). 
+
+**Source code is available after a publication. However, now you can download pre-trained models**
 
 # Corpus
 - Step 1: run download.sh to download all raw corpora
