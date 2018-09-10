@@ -99,7 +99,7 @@ if __name__ == '__main__':
         inputCorpus = xutils.Dirs.Corpus + sys.argv[2]
         outputCorpus = xutils.Dirs.Corpus + sys.argv[3]
         window_size = 15
-        concepts = set(xutils.read_all_lines('umls_concepts.txt'))
+        concepts = set(xutils.read_all_lines('concepts.txt'))
         concepts_multi = set(filter(lambda x: 1 < len(x.split('_')) <= window_size, concepts))
         files = glob.glob(inputCorpus + '/**/*.*', recursive=True)
         pool = multiprocessing.Pool(8)
@@ -128,7 +128,7 @@ if __name__ == '__main__':
     # inputCorpus = xutils.Dirs.Corpus + 'concept'
     # outputCorpus = xutils.Dirs.Corpus + 'concept_only'
     # window_size = 15
-    # concepts = set(xutils.read_all_lines('umls_concepts.txt'))
+    # concepts = set(xutils.read_all_lines('concepts.txt'))
     # concepts_multi = set(filter(lambda x: 0 < len(x.split('_')) <= window_size, concepts))
     # files = glob.glob(inputCorpus + '/**/*.*', recursive=True)
     # pool = multiprocessing.Pool(multiprocessing.cpu_count())
